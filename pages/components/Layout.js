@@ -133,12 +133,12 @@ export default function Layout({ children }) {
         }}
       >
         <Link href={"/"} passHref>
-          <a style={{ marginRight: 16 }} href="/what-is-pwa">
+          <a style={{ marginRight: 16 }}>
             Home
           </a>
         </Link>
         <Link href="/what-is-pwa" passHref>
-          <a style={{ marginRight: 16 }}></a>
+          <a style={{ marginRight: 16 }}>What is PWA?</a>
         </Link>
         <Link href="/what-are-the-technologies" passHref>
           <a>What are the technologies?</a>
