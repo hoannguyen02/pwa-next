@@ -15,8 +15,8 @@ export default function Layout({ children }) {
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no, user-scalable=no, viewport-fit=cover"
         />
-        <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-192x192.png" />
-        <link rel="manifest" href="%PUBLIC_URL%/manifest.webmanifest" />
+        <link rel="apple-touch-icon" href="/icon-192x192.png" />
+        <link rel="manifest" href="/manifest.webmanifest" />
         <meta name="application-name" content="PWA App" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -31,11 +31,11 @@ export default function Layout({ children }) {
         <link
           rel="icon"
           type="image/png"
-          href="%PUBLIC_URL%/icon-192x192.png"
+          href="/icon-192x192.png"
         />
         <link
           rel="mask-icon"
-          href="%PUBLIC_URL%/icon-192x192.png"
+          href="/icon-192x192.png"
           color="#5bbad5"
         />
         <link rel="shortcut icon" href="/favicon.ico" />
